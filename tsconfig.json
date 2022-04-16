@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "es2015",  // 设置编译后代码使用的模块化系统
+    "target": "es2015",  // 设置ts代码编译的目标版本
+    "sourceMap": true,  // 是否生成sourceMap
+    "outDir": "./dist"  // 编译后文件的所在目录
+  },
+  "exclude": [  // 不需要编译目录
+    "node_modules"
+  ],
+    "include": [ // 用来指定哪些ts文件需要编译 **表示任意目录  *表示任意文件
+        "./src/**/*"
+    ],
+}
